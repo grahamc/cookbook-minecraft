@@ -1,3 +1,6 @@
+default['minecraft']['memory']['start']                 = '32M'
+default['minecraft']['memory']['max']                   = '512M'
+
 
 # Read up on these options here:
 # http://www.minecraftwiki.net/wiki/Server.properties
