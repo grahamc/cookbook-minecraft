@@ -60,3 +60,10 @@ template "/var/minecraft/config/banned-ips.txt" do
     variables :values => values['ips']
 end
 
+
+template "/etc/init/minecraft-server.conf" do
+    source "minecraft-server.conf.erb"
+
+    owner "root"
+end
+
