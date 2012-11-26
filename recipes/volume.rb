@@ -1,6 +1,7 @@
 directory "/var/minecraft/config/#{node['minecraft']['server']['level-name']}" do
     mode '0755'
     owner 'minecraft'
+    recursive true
 end
 
 if not node['minecraft']['system']['device'].nil?
